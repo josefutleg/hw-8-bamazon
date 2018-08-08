@@ -1,0 +1,23 @@
+{
+  "name": "hw-8-bamazon",
+  "version": "1.0.0",
+  "description": "homework 8 - mysql and node ",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josefutleg/hw-8-bamazon.git"
+  },
+  "author": "josef utleg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josefutleg/hw-8-bamazon/issues"
+  },
+  "homepage": "https://github.com/josefutleg/hw-8-bamazon#readme",
+  "dependencies": {
+    "inquirer": "^6.1.0",
+    "mysql": "^2.16.0"
+  }
+}
