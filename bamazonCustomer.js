@@ -78,7 +78,7 @@ function checkStock() {
         var finalPrice = parseFloat(res[p].price * inputQuant + tax).toFixed(2);
 
         if (inputQuant > stock) {
-          console.log("oops! we do not have enough!");
+          console.log("Oops! We do not have enough!");
           connection.end();
           return;
         } else {
